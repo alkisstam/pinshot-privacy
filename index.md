@@ -32,6 +32,7 @@ Screenshots are processed on your device. If you turn on the optional "Your own 
 | Permission | Purpose |
 |---|---|
 | `READ_MEDIA_IMAGES` / `READ_EXTERNAL_STORAGE` | Read screenshots from your gallery for OCR analysis |
+| `WRITE_EXTERNAL_STORAGE` | Save restored screenshots to Pictures/PinShot when you restore a backup (Android 9 and older) |
 | `READ_MEDIA_VISUAL_USER_SELECTED` | Read only the photos you pick, if you grant partial photo access (Android 14+) |
 | `INTERNET` | Reach the AI provider you set up (Section 4) and download local AI models (Section 5) |
 | `RECEIVE_BOOT_COMPLETED` | Resume watching for new screenshots after the phone restarts (can be disabled in Settings) |
