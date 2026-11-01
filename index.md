@@ -1,6 +1,6 @@
 # PinShot – Privacy Policy
 
-**Last updated:** October 2026  
+**Last updated:** November 2026  
 **Developer:** Alkis Stamoulis  
 **Contact:** alkiss87@gmail.com  
 **App:** PinShot – Smart Screenshot Organizer  
@@ -36,7 +36,7 @@ Screenshots are processed on your device. If you turn on the optional "Your own 
 | `INTERNET` | Reach the AI provider you set up (Section 4) and download local AI models (Section 5) |
 | `RECEIVE_BOOT_COMPLETED` | Resume watching for new screenshots after the phone restarts (can be disabled in Settings) |
 | `POST_NOTIFICATIONS` | Show new-screenshot notifications and reminders for dates found in screenshots (Android 13+) |
-| `VIBRATE` | Haptic feedback for notifications and in-app actions |
+| `FOREGROUND_SERVICE` / `FOREGROUND_SERVICE_DATA_SYNC` | Keep a full-library scan, library re-analysis or AI model download running with a progress notification when you leave the app |
 
 The in-app camera and voice search open your phone's own Camera and speech apps, so PinShot itself needs no camera or microphone permission.
 
